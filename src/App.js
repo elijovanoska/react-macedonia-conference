@@ -4,8 +4,11 @@ import topImage from './images/react-macedonia-conference-room.png';
 import Logo from './components/Logo';
 import NavBar from './components/Navbar';
 import About from './components/About';
+import Speakers from './components/Speakers/Speakers';
 
-const TopBackground = styled.image`
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const TopBackground = styled.img`
 background-image: url(${topImage})  ;
 background-repeat: no-repeat;
 background-position: center;
@@ -31,6 +34,7 @@ function App() {
         <NavBar />
       </Header>
       <About id="about" />
+      <Speakers />
     </div>
   );
 }

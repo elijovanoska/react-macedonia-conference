@@ -68,18 +68,18 @@ function About() {
       </TitleWrapper>
       <MainWrapper>
         <MainTitle>
-                BIGGEST REACT MACEDONIA CONFERENCE <i><span style={{fontSize: '22px'}}>by</span></i> IWC 
-            </MainTitle>
+          BIGGEST REACT MACEDONIA CONFERENCE <i><span style={{ fontSize: '22px' }}>by</span></i> IWC
+        </MainTitle>
       </MainWrapper>
       <DateWrapper>
-            13 & 14 October, 2023, Hilton Hotel, Skopje
+        13 & 14 October, 2023, Hilton Hotel, Skopje
       </DateWrapper>
       <AboutContentWrapper>
-            <AboutTitle>REACT is just getting better and better</AboutTitle>
-            <AboutText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                     specimen book.</AboutText>
+        <AboutTitle>REACT is just getting better and better</AboutTitle>
+        <AboutText>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book.</AboutText>
       </AboutContentWrapper>
     </>
   );
