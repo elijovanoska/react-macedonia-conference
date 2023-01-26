@@ -7,7 +7,7 @@ function Logo(){
     return (
         <LogoContainer>
              <ReactConfLogo src={logo}  alt="logo" /> 
-             <LogoText>React Macedonia by IWC</LogoText>
+             <LogoText></LogoText>
         </LogoContainer>
     )
 }

@@ -12,6 +12,7 @@ background-position: center;
 width: 100%;
 height: 100%;
 position: fixed;
+top: 0;
 opacity: 0.2;
 background-size: cover;
 `
@@ -19,7 +20,9 @@ const Header = styled.div`
 display: flex;
 justify-content: space-between;
 gap: 30px;
-margin:20px
+margin:20px;
+/* position: fixed;
+top: 0; */
 `
 
 function App() {

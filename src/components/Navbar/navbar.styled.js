@@ -38,6 +38,7 @@ export const Bars = styled(FaBars)`
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     cursor: pointer;
+    z-index: 20;
   }
 `;
 
@@ -53,6 +54,7 @@ color: #fff;
   transform: translate(-100%, 75%);
   font-size: 1.8rem;
   cursor: pointer;
+  z-index: 20;
 }
 `;
 
@@ -77,10 +79,10 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled.a`
-  border-radius: 4px;
-  background: #808080;
+  border-radius: 25px;
+  background: #fff;
   padding: 10px 22px;
-  color: #000000;
+  color: red;
   outline: none;
   border: none;
   cursor: pointer;
@@ -90,18 +92,30 @@ export const NavBtnLink = styled.a`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #808080;
+    background: #808080;
+    color: #fff;
   }
 `;
 
 export const SmallScreenMenu = styled.div`
- background-color: red;
+ background-color: rgba(0,0,0, 0.7);
  width: 100%;
  height: 400px;
- z-index: 20;
+ padding:30px;
 
  @media screen and (min-width: 768px) {
     display: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+      margin-bottom: 20px;
+      padding: 5px 20px;
+      border-bottom: solid rgba(256,256,256, 0.3) 1px;
+    }
   }
 `
